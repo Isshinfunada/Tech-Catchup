@@ -54,3 +54,46 @@ Progress is tracked in `PROGRESS.md` with weekly milestones from development env
   - Replace: `:%s/old/new/g` (replace all)
   - Navigation: `gg` (top), `G` (bottom), `0` (line start), `$` (line end)
   - Edit: `i` (insert), `a` (append), `o` (new line), `dd` (delete line), `yy` (copy line), `p` (paste)
+
+## Work Flow Instructions
+
+When completing learning tasks or development milestones, follow this standardized workflow:
+
+### 1. Task Execution
+- Use TodoWrite tool to plan and track tasks throughout the conversation
+- Execute tasks step by step with proper documentation
+- Update PROGRESS.md with completed items (`:e PROGRESS.md`)
+- Update LEARNING_LOG.md with detailed learning records (`:e LEARNING_LOG.md`)
+
+### 2. Branch and PR Management
+- Work on feature branches (not master) for each major task/week
+- Create comprehensive summary files documenting achievements
+- Commit changes with detailed messages including:
+  - Summary of completed tasks
+  - New files created
+  - Updated files modified
+  - Technical details learned
+- Push to remote branch and create PR with detailed description
+
+### 3. Issue Management
+- Close related GitHub issues when tasks are completed
+- Add completion comments with:
+  - Completed items checklist
+  - Technical details
+  - Links to related PRs
+  - Next steps
+
+### 4. Documentation Standards
+- Create summary files (e.g., `env-setup-summary.md`) for major milestones
+- Include technical details, commands learned, and time invested
+- Maintain clear record of what was accomplished for future reference
+- Use structured format with clear sections and checkboxes
+
+### 5. PR Content Requirements
+- Detailed description of completed work
+- File changes overview (new/updated)
+- Technical achievements and learning outcomes
+- Next steps and follow-up tasks
+- Time estimation and effort invested
+
+This workflow ensures comprehensive documentation and makes it easy to review what was accomplished in each session.
