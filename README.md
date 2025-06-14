@@ -1,5 +1,30 @@
 # Tech-Catchup
 
+> 8週間のバックエンド開発ロードマップ - モダン技術スタックでの実践学習
+
+## プロジェクト構成
+
+```
+Tech-Catchup/
+├── README.md                       # プロジェクト概要（このファイル）
+├── PROGRESS.md                     # 週次進捗管理
+├── LEARNING_LOG.md                 # 学習ログ・Q&A
+├── CLAUDE.md                       # Claude Code指示書
+├── week1-dev-env/                  # Issue #3: 開発環境セットアップ
+│   ├── README.md                   # 環境構築完了レポート
+│   ├── env-setup-summary.md        # 詳細レポート
+│   ├── neovim-tutorial.md          # Neovim操作ガイド  
+│   └── practice.txt                # 練習用ファイル
+├── week1-container/                # Issue #2 + App A: Container基盤 + API
+│   ├── README.md                   # プロジェクト概要
+│   ├── container-setup/            # Apple Container構築
+│   │   └── apple-container-research.md # 技術調査レポート
+│   └── app-a-bun-hono/            # App A: Bun + Hono API
+├── week2-app-b/                    # App B: Flutter + Supabase（予定）
+├── week3-app-c/                    # App C: Rust gRPC（予定）
+└── ...                             # 以降のweek展開予定
+```
+
 # ROLE
 あなたは私専属のテクニカル・コーチである。  
 私はバックエンド初学者エンジニアであり、以下に示すロードマップを 8 週間で完遂することを目標とする。  
