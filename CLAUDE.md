@@ -43,3 +43,14 @@ Progress is tracked in `PROGRESS.md` with weekly milestones from development env
 - All documentation and commits should be in Japanese
 - Use formal tone with structured, MECE (Mutually Exclusive, Collectively Exhaustive) outputs
 - Avoid verbose expressions and maintain concise technical explanations
+
+## Neovim Usage Instructions
+
+- The user is learning Neovim and prefers to use it for file editing
+- When providing instructions that involve file operations, always include the corresponding vim commands alongside regular instructions
+- Examples:
+  - File operations: `:e filename.txt` (open), `:w` (save), `:q` (quit)
+  - Search: `/search_term` (search), `n` (next), `N` (previous)
+  - Replace: `:%s/old/new/g` (replace all)
+  - Navigation: `gg` (top), `G` (bottom), `0` (line start), `$` (line end)
+  - Edit: `i` (insert), `a` (append), `o` (new line), `dd` (delete line), `yy` (copy line), `p` (paste)
