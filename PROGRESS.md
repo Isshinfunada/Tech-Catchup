@@ -9,6 +9,10 @@
 - [x] tmux をインストール ✅ 2025-06-14
 - [x] `~/.tmux.conf` を作成 ✅ 2025-06-14
 - [x] Neovim に LSP を設定 ✅ 2025-06-14
+- [x] Neovim基本操作チュートリアル完了 ✅ 2025-06-14
+- [x] AstroNvim導入とセットアップ完了 ✅ 2025-06-14
+- [x] tmux基本概念の理解完了 ✅ 2025-06-14
+
 ### Colima fallback
 - [ ] Colima をインストール
 - [ ] Apple Container 不調時の代替を確認
