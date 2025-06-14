@@ -6,9 +6,9 @@
 - [ ] インストール
 - [ ] サンプル起動で動作検証
 ### 開発環境
-- [ ] tmux をインストール
-- [ ] `~/.tmux.conf` を作成
-- [ ] Neovim に LSP を設定
+- [x] tmux をインストール ✅ 2025-06-14
+- [x] `~/.tmux.conf` を作成 ✅ 2025-06-14
+- [x] Neovim に LSP を設定 ✅ 2025-06-14
 ### Colima fallback
 - [ ] Colima をインストール
 - [ ] Apple Container 不調時の代替を確認
