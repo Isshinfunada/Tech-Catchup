@@ -1,0 +1,28 @@
+# Apple Container設定ファイル for Bun + Hono
+version: '1'
+
+services:
+  chat-api:
+    image: node:22-alpine  # Alpine Linuxベース（軽量）
+    working_dir: /app
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+    command: |
+      sh -c "
+        # Bunのインストール
+        curl -fsSL https://bun.sh/install | bash
+        export PATH=$PATH:~/.bun/bin
+        
+        # 依存関係のインストール
+        ~/.bun/bin/bun install
+        
+        # サーバー起動
+        ~/.bun/bin/bun run dev
+      "
+    stdin_open: true
+    tty: true

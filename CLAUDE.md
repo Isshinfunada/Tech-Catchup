@@ -122,3 +122,20 @@ When guiding the user through learning exercises, follow these principles:
 - Encourage connections between new and existing knowledge
 
 This approach ensures deep understanding rather than surface-level completion of tasks.
+
+## File Management Guidelines
+
+### Automatic Git Management
+- **新規ファイル作成時**: 必ずコミット・プッシュを実行
+- **ディレクトリ単位のブランチ管理**: プロジェクトごとに適切なブランチを作成
+- **コミットメッセージ**: 作成したファイルの目的と内容を明記
+- **作業完了時**: 必ず進捗をリモートブランチに反映
+
+### Workflow Requirements
+1. 新しいファイル/機能を作成
+2. 適切な範囲でgit add
+3. 詳細なコミットメッセージで commit
+4. リモートブランチに push
+5. 必要に応じてPR作成
+
+This ensures proper version control and project organization throughout development.

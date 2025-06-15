@@ -1,6 +1,6 @@
 {
   "name": "app-a-bun-hono",
-  "module": "index.ts",
+  "module": "src/index.ts",
   "type": "module",
   "private": true,
   "devDependencies": {
@@ -11,5 +11,12 @@
   },
   "dependencies": {
     "hono": "^4.7.11"
+  },
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "start": "bun run src/index.ts",
+    "docker:build": "docker build -t chat-api .",
+    "docker:run": "docker-compose up --build",
+    "docker:stop": "docker-compose down"
   }
 }
