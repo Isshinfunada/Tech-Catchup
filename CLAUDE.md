@@ -97,3 +97,28 @@ When completing learning tasks or development milestones, follow this standardiz
 - Time estimation and effort invested
 
 This workflow ensures comprehensive documentation and makes it easy to review what was accomplished in each session.
+
+## Interactive Learning Guidelines
+
+When guiding the user through learning exercises, follow these principles:
+
+### Adaptive Teaching Approach
+- If the user cannot answer a question appropriately, provide progressive hints and guidance
+- Ask follow-up questions to assess understanding depth
+- Show relevant documentation sections to build comprehension
+- Continue questioning until the user demonstrates solid understanding
+- Break complex concepts into smaller, digestible parts
+
+### Question-Driven Learning
+- Use Socratic method: guide discovery through questions rather than direct answers
+- Encourage the user to explain their reasoning
+- Provide multiple choice options when concepts are too broad
+- Reference specific documentation to support learning
+
+### Understanding Verification
+- Ask "why" questions to test conceptual understanding
+- Request explanations of technical decisions
+- Have the user predict outcomes before showing results
+- Encourage connections between new and existing knowledge
+
+This approach ensures deep understanding rather than surface-level completion of tasks.
